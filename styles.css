@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    box-shadow: 3px 3px 10px 5px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 5rem;
+    width: 20%;
+    height: 40vh;
+}
+
+p{
+    text-align: center;
+    font-size: 7rem;
+    padding-bottom: 1rem;
+}
+.btn{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.btn1{
+    border: none;
+    color: white;
+    background-color: red;
+    height: 30px;
+}
+.btn2{
+    border: none;
+    color: white;
+    background-color: black;
+    height: 30px;
+}
+.btn3{
+    border: none;
+    color: white;
+    background-color: green;
+    height: 30px;
+}
+.btn1:hover{
+    cursor: pointer;
+    background-color: rgb(161, 3, 3);
+}
+.btn2:hover{
+    cursor: pointer;
+    background-color: rgb(46, 46, 46);
+}
+.btn3:hover{
+    cursor: pointer;
+    background-color: rgb(2, 94, 2);
+}
+
+@media (min-width: 320px) and (max-width: 460px){
+    #container{
+        width: 80%;
+    }
+}
